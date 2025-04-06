@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-export default function Footer() {
+export default function SimpleFooter() {
     const footerVariants = {
         hidden: { opacity: 0, y: 20 },
         visible: { 
@@ -16,15 +16,15 @@ export default function Footer() {
 
     const linkVariants = {
         hover: { 
-            scale: 1.1,
+            scale: 1.0,
             color: "#60a5fa", // text-blue-400
-            transition: { duration: 0.2 }
+            transition: { duration: 0.1 }
         }
     };
 
     return (
         <motion.footer 
-            className="absolute bottom-0 left-0 w-full py-6 bg-dark mt-auto"
+            className="absolute bottom-0 left-0 w-full py-3 bg-dark mt-auto"
             initial="hidden"
             animate="visible"
             variants={footerVariants}
@@ -51,7 +51,7 @@ export default function Footer() {
                     <p>|</p>
                     <motion.div 
                         whileHover={{ scale: 1.1 }} 
-                        transition={{ duration: 0.2 }}
+                        transition={{ duration: 0.15 }}
                     >
                         <Link href="/gallery" className="text-yellow-300 transition-all duration-300">
                             作品集

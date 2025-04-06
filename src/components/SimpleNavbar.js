@@ -2,20 +2,20 @@ import { useState } from "react";
 import Link from "next/link";
 // import Image from "next/image";
 
-export default function Navbar() {
+export default function SimpleNavbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-dark w-full px-2 pt-6 pb-8">
-            <div className="">
+        <nav className="bg-dark w-full p-2">
+            
                 <div className="flex justify-center items-center">
-                    <div className="p-4">
-                        <Link href="/" className="px-8 py-4 text-shadow-glow rounded-sm bg-transparent text-white text-4xl font-bold tracking-widest">
+                    <div className="p-2">
+                        <Link href="/" className="text-shadow-glow rounded-sm bg-transparent text-white text-2xl font-bold tracking-widest">
                             吉 吉 烛 坊
                         </Link>
                     </div>
                     
-                    <div className="absolute right-12 top-10 border border-white px-8 py-1.5 text-white hover:bg-blue-400 hover:text-white hover:border-blue-400 transition-colors duration-400">
+                    <div className="absolute right-12 top-5 border border-white px-6 py-1 text-white text-sm hover:bg-blue-400 hover:text-white hover:border-blue-400 transition-colors duration-400">
                         <Link href="#login" className="">
                             登陆
                         </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
                         </div>
                     </div>
                 )}
-            </div>
+            
         </nav>
     );
 }

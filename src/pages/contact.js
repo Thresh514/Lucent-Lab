@@ -4,6 +4,7 @@ import Image from "next/image";
 import Head from "next/head";
 import SimpleNavbar from "../components/SimpleNavbar";
 import MyMap from "../components/GoogleMap";
+import SimpleFooter from "../components/SimpleFooter";
 
 export default function Contactus() {
   return (
@@ -76,9 +77,8 @@ export default function Contactus() {
               <p >地址：40 William St, Wellesley, MA 02481</p>
               <MyMap />
             </div>
-
-
         </div>
+        <SimpleFooter />
       </div>
   );
 }

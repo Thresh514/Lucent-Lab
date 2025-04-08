@@ -8,8 +8,8 @@ export default function SimpleFooter() {
             opacity: 1, 
             y: 0,
             transition: {
-                delay: 2.5, // 等主图和标语动画完成后再显示
-                duration: 0.8
+                delay: 0.5, // 等主图和标语动画完成后再显示
+                duration: 0.5
             }
         }
     };

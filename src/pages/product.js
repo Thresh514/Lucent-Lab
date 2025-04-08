@@ -5,6 +5,7 @@ import ProductSpecCard from '../components/ProductSpecCard';
 import SimpleNavbar from '../components/SimpleNavbar';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
+import SimpleFooter from '../components/SimpleFooter';
 
 export default function Product() {
   return (
@@ -69,6 +70,7 @@ export default function Product() {
           </motion.div>
         </div>
       </div>
+      <SimpleFooter />
     </div>
   );
 }

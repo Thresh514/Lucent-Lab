@@ -61,7 +61,7 @@ export default function Contactus() {
               </div>
             </div>
 
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center pr-16">
             <Image
               src="/contactus.jpg"
               alt="phonenumber"

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 // import Image from 'next/image';
-// import Link from 'next/link';
+import Link from 'next/link';
 
 export default function Home() {
   // 创建动画控制器
@@ -71,9 +71,9 @@ export default function Home() {
             animate={candleControls}
           >
             {/* 蜡烛图片 - 这里用了一个占位符，您需要替换为真实图片 */}
-            <div className="w-full h-full flex items-center justify-center bg-white rounded-full overflow-hidden cursor-pointer">
+            <Link href="/product" className="w-full h-full flex items-center justify-center bg-white rounded-full overflow-hidden cursor-pointer">
               <div className="text-8xl">🚗</div>
-            </div>
+            </Link>
           </motion.div>
         
         

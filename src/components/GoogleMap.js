@@ -4,7 +4,7 @@ import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
 
 const containerStyle = {
   width: "400px",
-  height: "300px",
+  height: "400px",
 };
 
 // 中心点坐标（你可以改成你要的经纬度）
@@ -70,7 +70,17 @@ export default function MyMap() {
             styles: darkMapStyle, // ✅ 默认启用深色模式
             disableDefaultUI: true, // 禁用默认UI
         }}>
-      <Marker position={center} />
+      <Marker position={center}/>
+      <button
+        onClick={() =>
+          window.open(
+            "https://www.google.com/maps/dir/?api=1&destination=42.318388,-71.231981",
+            "_blank"
+          )
+        }
+        className="absolute bottom-6 right-4 bg-white text-black p-2.5 rounded-full"
+      ><img src="/direction.svg" alt="directions" width={30} height={30}/>
+      </button>
     </GoogleMap>
   );
 }

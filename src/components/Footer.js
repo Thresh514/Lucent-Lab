@@ -38,7 +38,7 @@ export default function Footer() {
                     </motion.div>
                     <p>|</p>
                     <motion.div whileHover="hover" variants={linkVariants}>
-                        <Link href="#contact" className="transition-colors duration-300">
+                        <Link href="/contact" className="transition-colors duration-300">
                             联系方式
                         </Link>
                     </motion.div>

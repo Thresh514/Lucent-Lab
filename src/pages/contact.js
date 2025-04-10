@@ -16,7 +16,7 @@ export default function Contactus() {
 
       <SimpleNavbar />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-screen mt-40">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-screen mt-24">
             <div className="text-xl flex flex-col items-center justify-center space-y-8">
               <div className="flex flex-row items-center justify-center">
                 <Image
@@ -78,7 +78,6 @@ export default function Contactus() {
               <MyMap />
             </div>
         </div>
-        <SimpleFooter />
       </div>
   );
 }

@@ -15,9 +15,9 @@ export default function Navbar() {
                         </Link>
                     </div>
                     
-                    <div className="absolute right-12 top-10 border border-white px-8 py-1.5 text-white hover:bg-blue-400 hover:text-white hover:border-blue-400 transition-colors duration-400">
-                        <Link href="#login" className="">
-                            登陆
+                    <div className="absolute right-12 top-10 text-xl font-lighter">
+                        <Link href="/gallery" className="text-yellow-300 transition-all duration-300">
+                            作品集
                         </Link>
                     </div>
                     
@@ -43,9 +43,7 @@ export default function Navbar() {
                                 <span className="text-lg font-medium text-blue-500 dark:text-blue-400">『 香香烛坊 』</span>
                                 <span className="text-sm ml-2 text-gray-500 dark:text-gray-400">点亮灵感</span>
                             </div>
-                            <Link href="/login" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400">
-                                登录 / 个人资料
-                            </Link>
+                            
                         </div>
                     </div>
                 )}

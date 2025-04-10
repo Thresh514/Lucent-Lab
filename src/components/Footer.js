@@ -32,29 +32,20 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex flex-wrap justify-center text-white space-x-24">
                     <motion.div whileHover="hover" variants={linkVariants}>
-                        <Link href="#faq" className="transition-colors duration-300">
+                        <Link href="/faq" className="transition-colors duration-300">
                             FAQ
+                        </Link>
+                    </motion.div>
+                    <p>|</p>
+                    <motion.div whileHover="hover" variants={linkVariants}>
+                        <Link href="/jijiworld" className="transition-colors duration-300">
+                            吉吉世界
                         </Link>
                     </motion.div>
                     <p>|</p>
                     <motion.div whileHover="hover" variants={linkVariants}>
                         <Link href="/contact" className="transition-colors duration-300">
                             联系方式
-                        </Link>
-                    </motion.div>
-                    <p>|</p>
-                    <motion.div whileHover="hover" variants={linkVariants}>
-                        <Link href="#jijiworld" className="transition-colors duration-300">
-                            吉吉世界
-                        </Link>
-                    </motion.div>
-                    <p>|</p>
-                    <motion.div 
-                        whileHover={{ scale: 1.1 }} 
-                        transition={{ duration: 0.2 }}
-                    >
-                        <Link href="/gallery" className="text-yellow-300 transition-all duration-300">
-                            作品集
                         </Link>
                     </motion.div>
                 </div>

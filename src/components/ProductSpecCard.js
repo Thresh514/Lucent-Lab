@@ -12,7 +12,7 @@ return (
     <div
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-        className="relative bg-white rounded-t-full overflow-hidden shadow-md w-full max-w-sm aspect-[3/5] transition-all duration-500 cursor-pointer"
+        className="relative bg-white rounded-t-full overflow-hidden shadow-md w-full max-w-sm aspect-[3/7] transition-all duration-500 cursor-pointer"
         >
         {/* 背景图层（始终显示） */}
         <Image

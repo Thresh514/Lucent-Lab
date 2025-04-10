@@ -32,13 +32,13 @@ export default function SimpleFooter() {
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex flex-wrap justify-center text-white space-x-24">
                     <motion.div whileHover="hover" variants={linkVariants}>
-                        <Link href="#faq" className="transition-colors duration-300">
+                        <Link href="/faq" className="transition-colors duration-300">
                             FAQ
                         </Link>
                     </motion.div>
                     <p>|</p>
                     <motion.div whileHover="hover" variants={linkVariants}>
-                        <Link href="#contact" className="transition-colors duration-300">
+                        <Link href="/contact" className="transition-colors duration-300">
                             联系方式
                         </Link>
                     </motion.div>

@@ -15,9 +15,9 @@ export default function SimpleNavbar() {
                         </Link>
                     </div>
                     
-                    <div className="absolute right-12 top-5 border border-white px-6 py-1 text-white text-sm hover:bg-blue-400 hover:text-white hover:border-blue-400 transition-colors duration-400">
-                        <Link href="#login" className="">
-                            登陆
+                    <div className="absolute right-12 top-10 text-xl font-lighter">
+                        <Link href="/gallery" className="text-yellow-300 transition-all duration-300">
+                            作品集
                         </Link>
                     </div>
                     

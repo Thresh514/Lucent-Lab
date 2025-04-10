@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-// import Image from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
@@ -72,7 +72,7 @@ export default function Home() {
           >
             {/* 蜡烛图片 - 这里用了一个占位符，您需要替换为真实图片 */}
             <Link href="/product" className="w-full h-full flex items-center justify-center bg-white rounded-full overflow-hidden cursor-pointer">
-              <div className="text-8xl">🚗</div>
+              <Image src="/wht5.jpg" alt="蜡烛" width={400} height={400} />
             </Link>
           </motion.div>
         

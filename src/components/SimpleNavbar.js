@@ -15,7 +15,7 @@ export default function SimpleNavbar() {
                         </Link>
                     </div>
                     
-                    <div className="absolute right-12 top-10 text-xl font-lighter">
+                    <div className="absolute right-10 top-5 text-lg font-lighter">
                         <Link href="/gallery" className="text-yellow-300 transition-all duration-300">
                             作品集
                         </Link>

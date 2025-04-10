@@ -94,11 +94,12 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={buttonControls}
         >
-          <button 
+          <Link 
+            href="/reserve"
             className="text-white hover:text-shadow-glow hover:text-yellow-200 p-6 text-3xl tracking-widest transition-colors duration-300"
           >
             立 即 预 约
-          </button>
+          </Link>
         </motion.div>
       </div>
     </div>
